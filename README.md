@@ -1,17 +1,11 @@
-## cmake.vim
-
-#### Table of Contents
-
-- [Description](#description)
-- [Customization](#customization)
-- [License](#license)
-
-#### Description
+# cmake.vim
 
 Provides cmake completion for [coc.nvim][] / [deoplete.nvim][].
 > Requires [CMake][] available in the `$PATH`.
 
-#### Customization
+[[_TOC_]]
+
+## Customization
 
 Available options to customize the completion:
 
@@ -30,9 +24,10 @@ let g:cmake#supported_configurations = ['CUSTOM_DEBUG']
 let g:cmake#blacklist = ['XCODE', 'ANDROID', 'OSX', 'VS', 'Fortran', 'Eclipse', 'ECLIPSE']
 ```
 
-#### License
+## License
 
-The project is licensed under the MIT license. See [LICENSE](LICENSE) for more information.
+The project is licensed under the MIT license. See [LICENSE](LICENSE) for more
+information.
 
 [CMake]: https://cmake.org/
 [coc.nvim]: https://github.com/neoclide/coc.nvim
