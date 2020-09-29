@@ -1,6 +1,7 @@
 # cmake.vim
 
-Provides cmake completion for [coc.nvim][] / [deoplete.nvim][].
+Provides cmake completion for [completion-nvim][] / [coc.nvim][] /
+[deoplete.nvim][].
 > Requires [CMake][] available in the `$PATH`.
 
 [[_TOC_]]
@@ -32,3 +33,4 @@ information.
 [CMake]: https://cmake.org/
 [coc.nvim]: https://github.com/neoclide/coc.nvim
 [deoplete.nvim]: https://github.com/Shougo/deoplete.nvim
+[completion-nvim]: https://github.com/nvim-lua/completion-nvim
