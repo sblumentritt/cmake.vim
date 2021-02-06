@@ -4,8 +4,6 @@ Provides cmake completion for [completion-nvim][] / [coc.nvim][] /
 [deoplete.nvim][].
 > Requires [CMake][] available in the `$PATH`.
 
-[[_TOC_]]
-
 ## Customization
 
 Available options to customize the completion:
